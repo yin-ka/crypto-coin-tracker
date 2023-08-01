@@ -1,8 +1,18 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Layout from './pages/Layout';
+import Detail from './pages/Details';
+
 function App() {
   return (
-    <div>
-      <h1>Metrics App</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="detail" element={<Detail />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
