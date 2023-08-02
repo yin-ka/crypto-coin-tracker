@@ -1,11 +1,18 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import { fetchCoins } from '../redux/home/homeSlice';
 
 const Home = () => {
   const { isLoading, coins } = useSelector((store) => store.home);
-  console.log(isLoading, coins);
+
   const dispatch = useDispatch();
+  const navigate = useNavigate();
+
+  const details = (coins) => {
+    navigate(`/details/${coins.name}`, { state: { coins } });
+  };
 
   useEffect(() => {
     if (isLoading === false) dispatch(fetchCoins());
@@ -23,11 +30,23 @@ const Home = () => {
       <div>
         {coins.map((coin) => {
           const { id, symbol, percent_change_1h: hour } = coin;
-          console.log(coin);
+
           return (
-            <button type="button" key={id}>
+            <button type="button" key={id} onClick={() => details(coin)}>
               <h3>{symbol}</h3>
-              <p>{hour}</p>
+              <p>
+                {hour <= 0 ? (
+                  <>
+                    <FaChevronDown color="red" />
+                    {Math.abs(hour)}
+                  </>
+                ) : (
+                  <>
+                    <FaChevronUp color="green" />
+                    {Math.abs(hour)}
+                  </>
+                )}
+              </p>
             </button>
           );
         })}
