@@ -1,18 +1,16 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Layout from './pages/Layout';
-import Detail from './pages/Details';
+import { Route, Routes } from 'react-router-dom';
+import './styles/index.css';
+import Home from './components/Home';
+import DetailsPage from './components/DetailsPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <div className="App">
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="detail" element={<Detail />} />
-        </Route>
+        <Route path="/" element={<Home />} />
+        <Route path="details/:name" element={<DetailsPage />} />
       </Routes>
-    </BrowserRouter>
+    </div>
   );
 }
 
