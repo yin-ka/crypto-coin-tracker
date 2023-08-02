@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import { BsSearch } from 'react-icons/bs';
 import { fetchCoins } from '../redux/home/homeSlice';
-import styles from '../styles/Home.css';
+import styles from '../styles/Home.module.css';
 
 const Home = () => {
   const [search, setSearch] = useState('');

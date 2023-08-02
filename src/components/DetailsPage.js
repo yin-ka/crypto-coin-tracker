@@ -1,7 +1,7 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 import { BiArrowBack } from 'react-icons/bi';
 import { FaChevronDown, FaChevronUp, FaBitcoin } from 'react-icons/fa';
-import styles from '../styles/Details.css';
+import styles from '../styles/Details.module.css';
 
 const DetailsPage = () => {
   const location = useLocation();
