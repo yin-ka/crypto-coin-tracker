@@ -27,7 +27,7 @@ const homeSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder
-      .addCase(fetchCoins.pending, (state) => ({ ...state, loading: true }))
+      .addCase(fetchCoins.pending, (state) => ({ ...state, isLoading: true }))
       .addCase(fetchCoins.fulfilled, (state, { payload }) => ({
         ...state,
         coins: payload,
