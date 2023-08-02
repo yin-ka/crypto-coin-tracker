@@ -1,70 +1,220 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<div align="center">
+  <h3><b>Metrics-web-app</b></h3>
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
+# 📗 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+  - [🦻 Walkthrough  Video](#walkthrough-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- PROJECT DESCRIPTION -->
 
-### `npm test`
+# 📖 Metrics-web-app <a name="about-project"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a React capstone project is about building a mobile web application to check a list of metrics (numeric values) that I will created making use of React and Redux.
 
-### `npm run build`
+**Metrics-web-app** is a React-based project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :hammer_and_wrench: Built With <a name="built-with"></a>
+- HTML
+- CSS
+- JavaScript
+- React
+- Redux-toolkit
+### Tech Stack <a name="tech-stack"></a>
+<details>
+  <summary>Version Control</summary>
+  <ul>
+    <li><a href="https://github.com/">Git Hub</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Visual Studio Code</summary>
+  <ul>
+    <li><a href="https://code.visualstudio.com">Visual Studio Code</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://html.com/html5/">HTML5</a></li>
+    <li><a href="https://www.css3.com/">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+    <li><a href="https://react.dev/">React</a></li>
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- Features -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Key Features <a name="key-features"></a>
 
-### `npm run eject`
+- **Linters SetUp**
+- **Follow HTML and CSS best practice**
+- **Follow React best practice**
+- **Functional Components**
+- **Import and Export Components**
+- **Use Hooks**
+- **Use react redux**
+- **Use redux toolkit**
+- **Use redux toolkit in Components**
+- **Work with apis**
+- **Add proper styles**
+- **Add jest tests**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- LIVE DEMO -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## Learn More
+-  [Live link]()
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- WalkThrough Video -->
 
-### Code Splitting
+## 🦻 WalkThrough Video <a name="#walkthrough-demo"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-  [WalkThrough link]()
 
-### Analyzing the Bundle Size
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- GETTING STARTED -->
 
-### Making a Progressive Web App
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To get a local copy up and running, follow these steps.
 
-### Advanced Configuration
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+In order to run this project you need:
+- Visual Studio Code.
+- Node JS.
+- Git bash.
+- GitHub Account.
 
+<!--
+Example command:
+```sh
+ gem install rails
+```
+ -->
+### Setup
+
+Clone this repository to your desired folder:
+Use git clone command or download ZIP folder
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:Yin-ka/Hello-Microverse.git
+```
+--->
+### Install
+Install this project with:
+npm
+Example command:
+```sh
+  cd Metrics-web-app
+  npm init -y
+```
+### Usage
+To run the project, execute the following command:
+npm start or live server
+Example command:
+```sh
+  npm run build
+```
+### Run tests
+To run tests, run the following command:
+npm run test
+Example command:
+```sh
+  npx stylelint "**/*.{css,scss}"
+  npx eslint .
+```
 ### Deployment
+<!-- You can deploy this project using:
+GitHub Pages
+Example:
+```sh
+git@github.com:Yin-ka/Sharing-World.git
+``` -->
+Not yet deployed ...
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## :busts_in_silhouette: Authors <a name="authors"></a>
+:bust_in_silhouette: **KUBAHO LINNE Heaven**
+- GitHub: [@Yin-ka](https://github.com/yin-ka)
+- LinkedIn: [Yusuf Sholotan](https://www.linkedin.com/in/yusuf-sholotan/)
 
-### `npm run build` fails to minify
+<!-- FUTURE FEATURES -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## :telescope: Future Features <a name="future-features"></a><br/>
+- [ ] **Adding Behaviors**<br/>
+- [ ] **Making it stylish**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- CONTRIBUTING -->
+
+## :handshake: Contributing <a name="contributing"></a>
+Contributions, issues, and feature requests are welcome!<br/>
+Feel free to check the [issues page](https://github.com/yin-ka/metrics-web-app/issues).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- SUPPORT -->
+
+## :star:️ Show your support <a name="support"></a>
+If you like this project please follow me on github & twitter and also connect on Linkedin.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- ACKNOWLEDGEMENTS -->
+
+## :pray: Acknowledgments <a name="acknowledgements"></a>
+- I would like to thank Microverse for this exercise. <br>
+- Credits of the wonderfull design used goes to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) thank you. <br>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- FAQ (optional) -->
+
+## :question: FAQ (OPTIONAL) <a name="faq"></a><br/>
+- **How long can it take to build that project**
+
+  - four days according to personal skills
+
+- **Where to find figma for that project!**
+
+  - Figma is not available for now!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/yin-ka/metrics-web-app/blob/dev/LICENSE) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
