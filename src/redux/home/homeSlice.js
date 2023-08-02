@@ -1,9 +1,14 @@
-import React from 'react';
+import { createSlice } from '@reduxjs/toolkit';
 
-function homeSlice() {
-  return (
-    <div>homeSlice</div>
-  );
-}
+const initialState = {
+  coin: [],
+  isLoading: false,
+};
 
-export default homeSlice;
+const homeSlice = createSlice({
+  name: 'home',
+  initialState,
+  reducers: {},
+});
+
+export default homeSlice.reducer;
