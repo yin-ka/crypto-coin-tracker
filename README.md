@@ -91,7 +91,7 @@ This capstone project involves creating a mobile web application using React and
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--  [Live link]()
+-  [Live link](https://sparkling-piroshki-89e370.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
