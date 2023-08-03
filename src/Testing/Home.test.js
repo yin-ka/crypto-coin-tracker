@@ -27,7 +27,7 @@ describe('Home Component', () => {
       </Provider>,
     );
 
-    expect(screen.getByText('Digital Coin Explorer')).toBeInTheDocument();
+    expect(screen.getByText('CRYPTO COIN TRACKER')).toBeInTheDocument();
     expect(screen.getByPlaceholderText('Search...')).toBeInTheDocument();
   });
 

@@ -34,7 +34,7 @@ const Home = () => {
   return (
     <div className={styles.homeContainer}>
       <div className={styles.headingContainer}>
-        <h1 className={styles.heading}>Digital Coin Explorer</h1>
+        <h1 className={styles.heading}>CRYPTO COIN TRACKER</h1>
         <form>
           <input
             type="text"
