@@ -99,7 +99,7 @@ This capstone project involves creating a mobile web application using React and
 
 ## 🦻 WalkThrough Video <a name="#walkthrough-demo"></a>
 
--  [WalkThrough link]()
+-  [WalkThrough link](https://www.loom.com/share/65641f3dbe3b42dfa11a0191fe95adfc?sid=bcf3bc2a-6480-4c17-a97f-8f103ceaf205)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
