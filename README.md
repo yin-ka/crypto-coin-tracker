@@ -166,7 +166,7 @@ Example:
 ```sh
 git@github.com:Yin-ka/Sharing-World.git
 ``` -->
-Deployed ...
+Deployed
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :busts_in_silhouette: Authors <a name="authors"></a>
