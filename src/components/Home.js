@@ -52,6 +52,9 @@ const Home = () => {
           </button>
         </form>
       </div>
+      <div className={styles.topcontainer}>
+        <p className={styles.top}>stats by coin</p>
+      </div>
       <div className={styles.coinContainer}>
         {coins
           .filter((coin) => {

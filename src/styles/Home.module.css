@@ -75,3 +75,13 @@ input:focus {
   justify-content: center;
   gap: 0.2rem;
 }
+
+.topcontainer {
+  margin-bottom: -3.5rem;
+}
+
+.top {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
