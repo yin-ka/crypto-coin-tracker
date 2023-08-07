@@ -99,9 +99,6 @@ input:focus {
 }
 
 .spanArrow {
-  margin-left: 10rem;
-  margin-bottom: 0;
-  color: #fff;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
+  margin-left: 10.625rem;
+  margin-right: -3.25rem;
 }
