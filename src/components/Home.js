@@ -1,7 +1,9 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import { FaChevronDown, FaChevronUp, FaMicrophone } from 'react-icons/fa';
+import { AiOutlineSetting } from 'react-icons/ai';
+import { BiArrowBack } from 'react-icons/bi';
 import { BsSearch } from 'react-icons/bs';
 import { fetchCoins } from '../redux/home/homeSlice';
 import styles from '../styles/Home.module.css';
@@ -33,6 +35,10 @@ const Home = () => {
 
   return (
     <div className={styles.homeContainer}>
+      <div className={styles.divIcon}>
+        <span className={styles.spanIcon}><FaMicrophone /></span>
+        <span className={styles.spanIcon}><AiOutlineSetting /></span>
+      </div>
       <div className={styles.headingContainer}>
         <h1 className={styles.heading}>CRYPTO COIN TRACKER</h1>
         <form>
@@ -72,6 +78,7 @@ const Home = () => {
                 onClick={() => details(coin)}
                 className={styles.btn}
               >
+                <span className={styles.spanArrow}><BiArrowBack /></span>
                 <h3>{symbol}</h3>
                 <div>
                   {hour < 0 ? (
