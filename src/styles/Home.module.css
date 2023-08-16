@@ -1,5 +1,4 @@
 .headingContainer {
-  margin-top: -3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,20 +84,4 @@ input:focus {
   color: #fff;
   font-size: 2.5rem;
   margin: 2rem 0;
-}
-
-.divIcon {
-  display: flex;
-  justify-content: end;
-  padding: 0 5%;
-}
-
-.spanIcon {
-  padding: 0.5rem;
-  color: #fff;
-}
-
-.spanArrow {
-  margin-left: 10.625rem;
-  margin-right: -3.25rem;
 }
