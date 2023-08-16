@@ -169,8 +169,8 @@ git@github.com:Yin-ka/Sharing-World.git
 Deployed
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## :busts_in_silhouette: Authors <a name="authors"></a>
-:bust_in_silhouette: **KUBAHO LINNE Heaven**
+## :busts_in_silhouette: Author <a name="authors"></a>
+:bust_in_silhouette: **Yusuf Sholotan**
 - GitHub: [@Yin-ka](https://github.com/yin-ka)
 - LinkedIn: [Yusuf Sholotan](https://www.linkedin.com/in/yusuf-sholotan/)
 
